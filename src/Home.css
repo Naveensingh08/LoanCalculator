@@ -1,14 +1,14 @@
-/* Custom scrollbar for scroll-container */
+
 .scroll-container::-webkit-scrollbar {
     width: 10px;
   }
   
   .scroll-container::-webkit-scrollbar-track {
-    background: #f0f0f0; /* light background for the scrollbar track */
+    background: #f0f0f0; 
   }
   
   .scroll-container::-webkit-scrollbar-thumb {
-    background-color: #1976d2; /* Material UI primary blue */
+    background-color: #1976d2; 
     border-radius: 10px;
     border: 2px solid #f0f0f0;
   }
