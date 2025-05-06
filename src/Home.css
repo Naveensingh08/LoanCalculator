@@ -1,0 +1,25 @@
+/* Custom scrollbar for scroll-container */
+.scroll-container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background: #f0f0f0; /* light background for the scrollbar track */
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: #1976d2; /* Material UI primary blue */
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Firefox support */
+  .scroll-container {
+    scrollbar-width: auto;
+    scrollbar-color: rgb(83, 73, 73) #f0f0f0;
+  }
+  
